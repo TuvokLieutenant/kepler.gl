@@ -17,6 +17,9 @@ jobs:
       - name: Enable Corepack (Yarn)
         run: corepack enable
 
+      - name: Install root deps
+        run: yarn install
+
       - name: Bootstrap repo
         run: yarn bootstrap
 
