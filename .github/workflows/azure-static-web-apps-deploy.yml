@@ -8,8 +8,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    env:
-      YARN_ENABLE_STRICT_PEER_DEPENDENCIES: "0"
 
     steps:
       - uses: actions/checkout@v4
