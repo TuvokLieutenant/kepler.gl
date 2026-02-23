@@ -1,6 +1,7 @@
 name: Build KeplerGL Python and NPM Packages
 
-on: push
+on:
+  workflow_dispatch: {}
 
 jobs:
   build_and_publish:
